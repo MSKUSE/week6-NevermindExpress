@@ -1,5 +1,16 @@
-public class TestMyDate {
+class MyDate{
+	private int d,m,y;
 
+	public MyDate(int d, int m, int y) {
+		this.d = d;
+		this.m = m;
+		this.y = y;
+	}
+
+
+}
+
+public class TestMyDate {
 	public static void main(String[] args) {
 		MyDate date = new MyDate(28,2,2017);
 		
